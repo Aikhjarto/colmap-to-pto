@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Thomas Wagner
+#
+# This program is free software; you can redistribute it and/or modify it under the terms of the
+# GNU General Public License as published by the Free Software Foundation; either version 2 of the
+# License, or (at your option) any later version. This program is distributed WITHOUT ANY WARRANTY;
+# see the file LICENSE for details.
 """Turn COLMAP feature matches into Hugin control points.
 
 Hugin's cpfind is slow on large image sets and its matches can be imprecise. COLMAP's GPU SIFT

@@ -61,3 +61,8 @@ The test renders 8 views (2 rows) of a random texture with known rotations, runs
 checks every control point against the true homography (median error < 0.3 px). If
 `autooptimiser` is on `PATH`, it also checks the optimised camera directions (< 0.05°).
 It needs `colmap`, numpy and opencv-python.
+
+## License
+
+Copyright (C) 2026 Thomas Wagner. Licensed under the GNU General Public License, version 2 or (at
+your option) any later version (`GPL-2.0-or-later`). See [LICENSE](LICENSE).
